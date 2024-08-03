@@ -43,7 +43,7 @@ export default function InstructorChart({ courses }) {
   }
 
   // Options for the chart
-  const options = {
+  const options = { 
     maintainAspectRatio: false,
   }
 
@@ -60,7 +60,7 @@ export default function InstructorChart({ courses }) {
               : "text-yellow-400"
           }`}
         >
-          Students
+         Medicine
         </button>
         {/* Button to switch to the "income" chart */}
         <button

@@ -45,24 +45,24 @@ export default function CoursesTable({ courses, setCourses }) {
         <Thead>
           <Tr className="flex gap-x-10 rounded-t-md border-b border-b-richblack-800 px-6 py-2">
             <Th className="flex-1 text-left text-sm font-medium uppercase text-richblack-100">
-              Courses
+              Medicine
             </Th>
-            <Th className="text-left text-sm font-medium uppercase text-richblack-100">
+            {/* <Th className="text-left text-sm font-medium uppercase text-richblack-100">
               Duration
-            </Th>
+            </Th> */}
             <Th className="text-left text-sm font-medium uppercase text-richblack-100">
               Price
             </Th>
-            <Th className="text-left text-sm font-medium uppercase text-richblack-100">
+            {/* <Th className="text-left text-sm font-medium uppercase text-richblack-100">
               Actions
-            </Th>
+            </Th> */}
           </Tr>
         </Thead>
         <Tbody>
           {courses?.length === 0 ? (
             <Tr>
               <Td className="py-10 text-center text-2xl font-medium text-richblack-100">
-                No courses found
+                No Medicine added
                 {/* TODO: Need to change this state */}
               </Td>
             </Tr>
@@ -104,14 +104,14 @@ export default function CoursesTable({ courses, setCourses }) {
                         <div className="flex h-3 w-3 items-center justify-center rounded-full bg-yellow-100 text-richblack-700">
                           <FaCheck size={8} />
                         </div>
-                        Published
+                        Released
                       </p>
                     )}
                   </div>
                 </Td>
-                <Td className="text-sm font-medium text-richblack-100">
+                {/* <Td className="text-sm font-medium text-richblack-100">
                   2hr 30min
-                </Td>
+                </Td> */}
                 <Td className="text-sm font-medium text-richblack-100">
                   ₹{course.price}
                 </Td>

@@ -1,47 +1,47 @@
 export const HomePageExplore = [
     {
-        tag: 'Free',
+        tag: 'Affordable',
         courses : [
             {
-                heading : "Learn HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Explore Our Medical Products",
+                description : "Discover our range of medical products. This course covers fundamental concepts including identifying essential medical supplies, understanding their applications, and ensuring their proper usage.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "Learn CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Health Essentials for All",
+                description : "Learn about essential healthcare products. This course delves into foundational topics such as identifying vital medical supplies, their significance in healthcare settings, and ensuring accessibility for all.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "Responsive Web design",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Navigating Medical Supplies",
+                description : "This course provides insights into the basics of medical equipment, their categorization, and guidance on selecting the right tools for specific healthcare needs.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
         ]
     },
     {
-        tag: 'New to coding',
+        tag: 'New to healthcare',
         courses : [
             {
-                heading : "HTML",
-                description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Introduction to Medical Products",
+                description : "Discover our range of medical products. This course covers fundamental concepts including identifying essential medical supplies, understanding their applications, and ensuring their proper usage.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "CSS",
-                description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Understanding Essential Healthcare Supplies",
+                description : "Learn about essential healthcare products. This course delves into foundational topics such as identifying vital medical supplies, their significance in healthcare settings, and ensuring accessibility for all.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "Responsive ",
-                description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                heading : "Getting Started with Medical Equipment",
+                description : "This course provides insights into the basics of medical equipment, their categorization, and guidance on selecting the right tools for specific healthcare needs.",
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
         ]
     },
@@ -49,22 +49,22 @@ export const HomePageExplore = [
         tag: 'Most popular',
         courses : [
             {
-                heading : "Java",
+                heading : "Paracetamol",
                 description : "This course covers the basic concepts of HTML including creating and structuring web pages, adding text, links, images, and more.",
-                level : 'Beginner',
-                lessionNumber : 6
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "Python",
+                heading : "Menoxidil",
                 description : "This course explores advanced topics in HTML5 and CSS3, including animations, transitions, and layout techniques",
-                level : 'Beginner',
-                lessionNumber : 6
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
             {
-                heading : "SCSS",
+                heading : "Fenertride",
                 description : "This course teaches responsive web design techniques, allowing web pages to adapt to different devices and screen sizes",
-                level : 'Beginner',
-                lessionNumber : 6
+                // level : 'Beginner',
+                // lessionNumber : 6
             },
         ]
     },
@@ -92,7 +92,7 @@ export const HomePageExplore = [
         ]
     },
     {
-        tag: 'Career paths',
+        tag: 'Knowledge pathway',
         courses : [
             {
                 heading : "Next.js",

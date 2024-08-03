@@ -5,9 +5,10 @@ import { BsFillCaretRightFill } from "react-icons/bs"
 import { FaShareSquare } from "react-icons/fa"
 import { useDispatch, useSelector } from "react-redux"
 import { useNavigate } from "react-router-dom"
-
+import Upload from "../Dashboard/AddCourse/Upload"
 import { addToCart } from "../../../slices/cartSlice"
 import { ACCOUNT_TYPE } from "../../../utils/constants"
+
 
 // const CourseIncludes = [
 //   "8 hours on-demand video",
@@ -35,7 +36,7 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
 
   const handleAddToCart = () => {
     if (user && user?.accountType === ACCOUNT_TYPE.INSTRUCTOR) {
-      toast.error("You are an Instructor. You can't buy a course.")
+      toast.error("You are an Instructor. You can't buy ")
       return
     }
     if (token) {
@@ -90,16 +91,31 @@ function CourseDetailsCard({ course, setConfirmationModal, handleBuyCourse }) {
             )}
           </div>
           <div>
+          <div> 
+          {/* <Upload
+        // name="courseImage"
+        label="Medicine Thumbnail"
+        // register={register}
+        // setValue={setValue}
+        // errors={errors}
+        // editData={editCourse ? course?.thumbnail : null}
+         /> */}
+             </div>
+                
+          <p className="pb-3 pt-6 text-center text-sm text-richblack-25  ">
+                 
+              Please Add Prescription
+            </p>
             <p className="pb-3 pt-6 text-center text-sm text-richblack-25">
-              30-Day Money-Back Guarantee
+              2-Day return policy..if not used
             </p>
           </div>
 
           <div className={``}>
-            <p className={`my-2 text-xl font-semibold `}>
+            {/* <p className={`my-2 text-xl font-semibold `}>
               This Course Includes :
-            </p>
-            <div className="flex flex-col gap-3 text-sm text-caribbeangreen-100">
+            </p> */}
+            <div className="flex flex-col gap-3 text-sm text-caribbeangreen-100 flex-start-7">
               {course?.instructions?.map((item, i) => {
                 return (
                   <p className={`flex gap-2`} key={i}>

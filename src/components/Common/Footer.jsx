@@ -56,11 +56,11 @@ const Footer = () => {
             </div>
 
             <div className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
-              <h1 className="text-richblack-50 font-semibold text-[16px]">
+              {/* <h1 className="text-richblack-50 font-semibold text-[16px]">
                 Resources
-              </h1>
+              </h1> */}
 
-              <div className="flex flex-col gap-2 mt-2">
+              {/* <div className="flex flex-col gap-2 mt-2">
                 {Resources.map((ele, index) => {
                   return (
                     <div
@@ -73,7 +73,7 @@ const Footer = () => {
                     </div>
                   );
                 })}
-              </div>
+              </div> */}
 
               <h1 className="text-richblack-50 font-semibold text-[16px] mt-7">
                 Support
@@ -89,7 +89,7 @@ const Footer = () => {
               </h1>
 
               <div className="flex flex-col gap-2 mt-2">
-                {Plans.map((ele, index) => {
+                {/* {Plans.map((ele, index) => {
                   return (
                     <div
                       key={index}
@@ -100,10 +100,11 @@ const Footer = () => {
                       </Link>
                     </div>
                   );
-                })}
+                  
+                })} */}
               </div>
               <h1 className="text-richblack-50 font-semibold text-[16px] mt-7">
-                Community
+                Consultant doctor
               </h1>
 
               <div className="flex flex-col gap-2 mt-2">
@@ -125,7 +126,7 @@ const Footer = () => {
 
           {/* Section 2 */}
           <div className="lg:w-[50%] flex flex-wrap flex-row justify-between pl-3 lg:pl-5 gap-3">
-            {FooterLink2.map((ele, i) => {
+            {/* {FooterLink2.map((ele, i) => {
               return (
                 <div key={i} className="w-[48%] lg:w-[30%] mb-7 lg:pl-0">
                   <h1 className="text-richblack-50 font-semibold text-[16px]">
@@ -145,7 +146,7 @@ const Footer = () => {
                   </div>
                 </div>
               );
-            })}
+            })} */}
           </div>
         </div>
       </div>
@@ -172,7 +173,7 @@ const Footer = () => {
             })}
           </div>
 
-          <div className="text-center">Made with ❤️ CodeHelp © 2023 Studynotion</div>
+          <div className="text-center">Made with ❤️harsh bansal and team © 2024 Medical store</div>
         </div>
       </div>
     </div>

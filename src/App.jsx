@@ -40,11 +40,16 @@ function App() {
   const navigate = useNavigate()
   const { user } = useSelector((state) => state.profile)
 
+  
+    
+
   useEffect(() => {
     if (localStorage.getItem("token")) {
       const token = JSON.parse(localStorage.getItem("token"))
       dispatch(getUserDetails(token, navigate))
+      
     }
+    document.title = "Maa shamla medicals";
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [])
 

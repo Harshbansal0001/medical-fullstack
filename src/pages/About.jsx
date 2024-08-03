@@ -18,13 +18,10 @@ const About = () => {
       <section className="bg-richblack-700">
         <div className="relative mx-auto flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-center text-white">
           <header className="mx-auto py-20 text-4xl font-semibold lg:w-[70%]">
-            Driving Innovation in Online Education for a
-            <HighlightText text={"Brighter Future"} />
+          Empowering Health with Cutting-Edge Online 
+            <HighlightText text={"Medical Resources"} />
             <p className="mx-auto mt-3 text-center text-base font-medium text-richblack-300 lg:w-[95%]">
-              Studynotion is at the forefront of driving innovation in online
-              education. We're passionate about creating a brighter future by
-              offering cutting-edge courses, leveraging emerging technologies,
-              and nurturing a vibrant learning community.
+             Get extra 5% saving on your orders.Free sheeping and 2 day delivery
             </p>
           </header>
           <div className="sm:h-[70px] lg:h-[150px]"></div>
@@ -51,19 +48,16 @@ const About = () => {
                 Our Founding Story
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                Our e-learning platform was born out of a shared vision and
-                passion for transforming education. It all began with a group of
-                educators, technologists, and lifelong learners who recognized
-                the need for accessible, flexible, and high-quality learning
-                opportunities in a rapidly evolving digital world.
+              our goal is to make healthcare understandable, accessible and affordable . 
+              We set out on our offline journey in 2000, and have come a long way since then. Along the way,
+               we have been conferred with prestigious titles like BML M Award for '
+                Excellence through Learning and Development', Best Online Pharmacy 
+                 Award . .
               </p>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                As experienced educators ourselves, we witnessed firsthand the
-                limitations and challenges of traditional education systems. We
-                believed that education should not be confined to the walls of a
-                classroom or restricted by geographical boundaries. We
-                envisioned a platform that could bridge these gaps and empower
-                individuals from all walks of life to unlock their full
+                 We
+                envisioned a platform that could bridge these gaps and 
+             from all walks of life to unlock their full
                 potential.
               </p>
             </div>
@@ -82,12 +76,15 @@ const About = () => {
                 Our Vision
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-                With this vision in mind, we set out on a journey to create an
-                e-learning platform that would revolutionize the way people
-                learn. Our team of dedicated experts worked tirelessly to
-                develop a robust and intuitive platform that combines
-                cutting-edge technology with engaging content, fostering a
-                dynamic and interactive learning experience.
+              Maa shamla medicals will be one of  India's leading digital healthcare platform,
+              where you can buy medicines online with discount. 
+              Buy medicine online in Gwalior,Delhi,Gurgaon, Noida.
+              Besides delivering your online medicine order at your doorstep,
+              we will  provide accurate, authoritative & trustworthy information on
+              medicines and help people use their medicines effectively and safely.
+              We will also facilitate lab tests at home. 
+              You can avail over 2,000 tests and get tested by 120+ top and verified labs at the best prices. 
+              Need to consult a doctor? On our platform, you will able to  talk to over 20 kinds of specialists in just a few clicks.
               </p>
             </div>
             <div className="my-24 flex lg:w-[40%] flex-col gap-10">
@@ -95,7 +92,7 @@ const About = () => {
               Our Mission
               </h1>
               <p className="text-base font-medium text-richblack-300 lg:w-[95%]">
-              Our mission goes beyond just delivering courses online. We wanted to create a vibrant community of learners, where individuals can connect, collaborate, and learn from one another. We believe that knowledge thrives in an environment of sharing and dialogue, and we foster this spirit of collaboration through forums, live sessions, and networking opportunities.
+              Having delivered over 25 million orders in 10+ cities , we are on a mission to bring "care" to "health" to give you a flawless healthcare experience.
               </p>
             </div>
           </div>
@@ -104,14 +101,14 @@ const About = () => {
 
       <StatsComponenet />
       <section className="mx-auto mt-20 flex w-11/12 max-w-maxContent flex-col justify-between gap-10 text-white">
-        <LearningGrid />
+        {/* <LearningGrid /> */}
         <ContactFormSection />
       </section>
 
       <div className="relative mx-auto my-20 flex w-11/12 max-w-maxContent flex-col items-center justify-between gap-8 bg-richblack-900 text-white">
         {/* Reviws from Other Learner */}
         <h1 className="text-center text-4xl font-semibold mt-8">
-          Reviews from other learners
+          Reviews from others
         </h1>
         <ReviewSlider />
       </div>

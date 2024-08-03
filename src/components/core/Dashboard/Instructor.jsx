@@ -44,7 +44,7 @@ export default function Instructor() {
           Hi {user?.firstName} 👋
         </h1>
         <p className="font-medium text-richblack-200">
-          Let's start something new
+          Let's buy something new
         </p>
       </div>
       {loading ? (
@@ -68,13 +68,13 @@ export default function Instructor() {
               <p className="text-lg font-bold text-richblack-5">Statistics</p>
               <div className="mt-4 space-y-4">
                 <div>
-                  <p className="text-lg text-richblack-200">Total Courses</p>
+                  <p className="text-lg text-richblack-200">Total Medicine</p>
                   <p className="text-3xl font-semibold text-richblack-50">
                     {courses.length}
                   </p>
                 </div>
                 <div>
-                  <p className="text-lg text-richblack-200">Total Students</p>
+                  <p className="text-lg text-richblack-200">Total customer</p>
                   <p className="text-3xl font-semibold text-richblack-50">
                     {totalStudents}
                   </p>
@@ -91,7 +91,7 @@ export default function Instructor() {
           <div className="rounded-md bg-richblack-800 p-6">
             {/* Render 3 courses */}
             <div className="flex items-center justify-between">
-              <p className="text-lg font-bold text-richblack-5">Your Courses</p>
+              <p className="text-lg font-bold text-richblack-5">Added Medicine</p>
               <Link to="/dashboard/my-courses">
                 <p className="text-xs font-semibold text-yellow-50">View All</p>
               </Link>
@@ -110,7 +110,7 @@ export default function Instructor() {
                     </p>
                     <div className="mt-1 flex items-center space-x-2">
                       <p className="text-xs font-medium text-richblack-300">
-                        {course.studentsEnroled.length} students
+                        {course.studentsEnroled.length} Customer
                       </p>
                       <p className="text-xs font-medium text-richblack-300">
                         |
@@ -128,11 +128,11 @@ export default function Instructor() {
       ) : (
         <div className="mt-20 rounded-md bg-richblack-800 p-6 py-20">
           <p className="text-center text-2xl font-bold text-richblack-5">
-            You have not created any courses yet
+            You have not Add any Medicine  yet
           </p>
           <Link to="/dashboard/add-course">
             <p className="mt-1 text-center text-lg font-semibold text-yellow-50">
-              Create a course
+              Add Medicine
             </p>
           </Link>
         </div>

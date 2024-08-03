@@ -152,21 +152,21 @@ function CourseDetails() {
                 <span className="text-yellow-25">{avgReviewCount}</span>
                 <RatingStars Review_Count={avgReviewCount} Star_Size={24} />
                 <span>{`(${ratingAndReviews.length} reviews)`}</span>
-                <span>{`${studentsEnroled.length} students enrolled`}</span>
+                {/* <span>{`${studentsEnroled.length} students enrolled`}</span> */}
               </div>
               <div>
                 <p className="">
-                  Created By {`${instructor.firstName} ${instructor.lastName}`}
+                  {/* Created By {`${instructor.firstName} ${instructor.lastName}`} */}
                 </p>
               </div>
               <div className="flex flex-wrap gap-5 text-lg">
                 <p className="flex items-center gap-2">
                   {" "}
-                  <BiInfoCircle /> Created at {formatDate(createdAt)}
+                  {/* <BiInfoCircle /> Created at {formatDate(createdAt)} */}
                 </p>
                 <p className="flex items-center gap-2">
                   {" "}
-                  <HiOutlineGlobeAlt /> English
+                  {/* <HiOutlineGlobeAlt /> English */}
                 </p>
               </div>
             </div>
@@ -194,7 +194,7 @@ function CourseDetails() {
         <div className="mx-auto max-w-maxContentTab lg:mx-0 xl:max-w-[810px]">
           {/* What will you learn section */}
           <div className="my-8 border border-richblack-600 p-8">
-            <p className="text-3xl font-semibold">What you'll learn</p>
+            <p className="text-3xl font-semibold">What you'll learn via video</p>
             <div className="mt-5">
               <ReactMarkdown>{whatYouWillLearn}</ReactMarkdown>
             </div>
@@ -203,7 +203,7 @@ function CourseDetails() {
           {/* Course Content Section */}
           <div className="max-w-[830px] ">
             <div className="flex flex-col gap-3">
-              <p className="text-[28px] font-semibold">Course Content</p>
+              <p className="text-[28px] font-semibold">How to apply ..video Content</p>
               <div className="flex flex-wrap justify-between gap-2">
                 <div className="flex gap-2">
                   <span>
@@ -238,7 +238,7 @@ function CourseDetails() {
             </div>
 
             {/* Author Details */}
-            <div className="mb-12 py-4">
+            {/* <div className="mb-12 py-4">
               <p className="text-[28px] font-semibold">Author</p>
               <div className="flex items-center gap-4 py-4">
                 <img
@@ -255,7 +255,7 @@ function CourseDetails() {
               <p className="text-richblack-50">
                 {instructor?.additionalDetails?.about}
               </p>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

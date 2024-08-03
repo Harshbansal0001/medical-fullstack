@@ -129,7 +129,7 @@ export default function SubSectionModal({
         {/* Modal Header */}
         <div className="flex items-center justify-between rounded-t-lg bg-richblack-700 p-5">
           <p className="text-xl font-semibold text-richblack-5">
-            {view && "Viewing"} {add && "Adding"} {edit && "Editing"} Lecture
+            {view && "Viewing"} {add && "Adding"} {edit && "Editing"} Video Content
           </p>
           <button onClick={() => (!loading ? setModalData(null) : {})}>
             <RxCross2 className="text-2xl text-richblack-5" />
@@ -165,14 +165,14 @@ export default function SubSectionModal({
             />
             {errors.lectureTitle && (
               <span className="ml-2 text-xs tracking-wide text-pink-200">
-                Lecture title is required
+                 title is required
               </span>
             )}
           </div>
           {/* Lecture Description */}
           <div className="flex flex-col space-y-2">
             <label className="text-sm text-richblack-5" htmlFor="lectureDesc">
-              Lecture Description{" "}
+               Description{" "}
               {!view && <sup className="text-pink-200">*</sup>}
             </label>
             <textarea
@@ -184,7 +184,7 @@ export default function SubSectionModal({
             />
             {errors.lectureDesc && (
               <span className="ml-2 text-xs tracking-wide text-pink-200">
-                Lecture Description is required
+                Description is required
               </span>
             )}
           </div>

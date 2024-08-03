@@ -22,15 +22,14 @@ const InstructorSection = () => {
             </h1>
 
             <p className="font-medium text-[16px] text-justify w-[90%] text-richblack-300">
-              Instructors from around the world teach millions of students on
-              StudyNotion. We provide the tools and skills to teach what you
-              love.
+              Instructors from around the world can sell medicals at
+              Maa shamla Medicals. 
             </p>
 
             <div className="w-fit">
               <CTAButton active={true} linkto={"/signup"}>
                 <div className="flex items-center gap-3">
-                  Start Teaching Today
+                  Start selling Today
                   <FaArrowRight />
                 </div>
               </CTAButton>
