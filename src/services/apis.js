@@ -1,4 +1,4 @@
-const BASE_URL ="https://medical-fullstack-backend.onrender.com"
+const BASE_URL ='https://medical-fullstack-backend.onrender.com'
 
 
 // AUTH ENDPOINTS
